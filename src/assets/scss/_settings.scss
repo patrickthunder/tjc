@@ -64,7 +64,7 @@
 
 // custom
 
-$menu-underline-from-center-bg: #2C3840;
+$menu-underline-from-center-bg: #e6e6e6;
 $menu-underline-from-center-border-thickness: 0.125rem;
 
 // 1. Global
@@ -102,6 +102,8 @@ $global-flexbox: true;
 $global-prototype-breakpoints: false;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
+
+$tjcmain: #004e7e;
 
 @include add-foundation-colors;
 

@@ -12,7 +12,7 @@
     background-color: $menu-underline-from-center-bg;
 
     a {
-      color: $white;
+      color: $tjcmain;
       padding: 1.2rem 1.5rem;
     }
 
@@ -23,7 +23,7 @@
         content: "";
         position: absolute;
         top: calc(100% - #{$menu-underline-from-center-border-thickness});
-        border-bottom: $menu-underline-from-center-border-thickness solid $white;
+        border-bottom: $menu-underline-from-center-border-thickness solid $tjcmain;
         left: 50%;
         right: 50%;
         transition: all 0.5s ease;
