@@ -80,6 +80,7 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
+$tjcmain: #004e7e;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
@@ -103,7 +104,7 @@ $global-prototype-breakpoints: false;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
 
-$tjcmain: #004e7e;
+
 
 @include add-foundation-colors;
 
