@@ -61,12 +61,8 @@
 //  56. Xy Grid
 
 @import 'util/util';
-
-// custom
-
-$menu-underline-from-center-bg: #e6e6e6;
-$menu-underline-from-center-border-thickness: 0.125rem;
-
+$primary: #004e7e;
+$secondary: #767676;
 // 1. Global
 // ---------
 
@@ -74,16 +70,17 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: $primary,
+  secondary: $secondary,
   success: #3adb76,
-  warning: #ffae00,
+  warning: #EFBB20,
   alert: #cc4b37,
 );
 $tjcmain: #004e7e;
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$light-gray: #f4f4f4;
+$medium-gray: #8a8a8a;
+$medium-light-gray: #cccccc;
+$dark-gray: #333333;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -847,8 +844,8 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-padding: 1.5rem;
+$topbar-background: $dark-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
