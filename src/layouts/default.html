@@ -13,9 +13,39 @@
 
 <body>
 
-{{> body}}
+  <!-- off canvas content menu -->
+
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+    <!-- close button -->
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <!-- off canvas menu -->
+    <!-- mobile nav bar -->
+    <ul class="menu vertical">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="company.html">Company</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- main page content lives inside div -->
+    <div class="title-bar hide-for-medium">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-open="offCanvas"></button>
+        <span class="title-bar-title">Thunder-Jones Construction</span>
+      </div>
+    </div>
+    {{>nav3}} {{> body}}
+  </div>
 
   <script src="{{root}}assets/js/app.js"></script>
+
 </body>
 
 </html>
