@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TJ | Construction</title>
+  <title>Thunder-Jones</title>
   <link rel="stylesheet" href="{{root}}assets/css/app.css">
 </head>
 
@@ -24,7 +24,7 @@
 
     <!-- off canvas menu -->
     <!-- mobile nav bar -->
-    <ul class="menu vertical">
+    <ul class="menu vertical text-center">
       <li><a href="index.html">Home</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="services.html">Services</a></li>
@@ -38,16 +38,13 @@
     <div class="title-bar hide-for-medium">
       <div class="title-bar-left">
         <button class="menu-icon" type="button" data-open="offCanvas"></button>
-        <span class="title-bar-title">Thunder-Jones Construction</span>
+        <span class="title-bar-title">Thunder-Jones
+        Contracting Group Inc</span>
       </div>
     </div>
-    {{>nav3}}
+    {{> navigation}} {{> body}} {{> footer}} {{> gutter}}
 
-    {{> body}}
+    <script src="{{root}}assets/js/app.js"></script>
   </div>
-
-  <script src="{{root}}assets/js/app.js"></script>
-
 </body>
-
 </html>
