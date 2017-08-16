@@ -54,6 +54,7 @@ hr {
 .title-bar-title {
   font-weight: 500;
   letter-spacing: 0.1px;
+  padding: 10px;
 }
 
 .tblogo {
@@ -61,7 +62,7 @@ hr {
 }
 
 div.title-bar.hide-for-medium {
-  background-color: black;
+  //background-color: black;
 }
 /* home callout section and showcase*/
 
@@ -182,4 +183,5 @@ footer {
   position: fixed;
   width:100%;
   z-index: 1;
+  padding-top:-10px;
 }
