@@ -13,3 +13,20 @@ $(document).foundation();
 
 //alert("hello TJC");
 $("[data-menu-underline-from-center] a").addClass("underline-from-center");
+
+/* var windows = $('#offCanvas');
+windows.on('click', function() {
+  $(this).hide();
+})
+*/
+/*
+$('#offCanvas li').click(function() {
+  $('#offCanvas').toggle();
+});
+*/
+/*
+var closeButton = $('.close-button');
+closeButton.on('click', function() {
+  $(this).parent().hide();
+});
+*/
