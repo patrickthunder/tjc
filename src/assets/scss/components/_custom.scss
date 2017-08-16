@@ -91,7 +91,9 @@ a.button.small {
 
 /*showcase*/
 
-
+#first {
+  width:100%;
+}
 
 /* who we are */
 
@@ -173,4 +175,11 @@ footer {
   span {
     color: $primary;
   }
+}
+
+/*idea for mobile nav sticky*/
+.title-bar {
+  position: fixed;
+  width:100%;
+  z-index: 1;
 }
