@@ -1,4 +1,161 @@
-/* body {
-  background-color: linen;
+
+/* global style*/
+h3 {
+  padding-bottom: 10px;
 }
-*/
+
+hr {
+  border-bottom: 1px solid $medium-gray;
+  display: block;
+  margin-bottom: 2.5rem;
+  width: 4rem;
+}
+/* top-bar nav */
+.top-bar {
+  color: $white;
+  font-size: 0.8rem;
+  width: 100%;
+
+  h4 {
+    font-size: 1.0rem;
+    padding: 3px 10px;
+    margin-top: 7px;
+    letter-spacing: 0.1px;
+  }
+
+  span {
+    color: lighten( $primary, 30% );
+    background: $dark-gray;
+    margin-right: 5px;
+  }
+
+  ul {
+    padding-right: 15px;
+  }
+
+  li {
+    text-transform: uppercase;
+  }
+
+  a {
+    color: $white;
+  }
+
+  a:hover {
+    color: $medium-light-gray;
+    border-bottom: 1.0px solid $medium-light-gray;
+  }
+}
+/* mobile nav and off canvas */
+.title-bar-title {
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  padding: 10px;
+}
+
+.tblogo {
+  color: $primary;
+}
+/* home callout section and showcase*/
+.callout.large.primary {
+  height: 450px;
+  padding-top: 120px;
+  padding-bottom: 150px;
+  color: $white;
+  margin-top: -2px;
+  min-height: 450px;
+
+  h1 {
+    color: black;
+  }
+}
+
+a.button.small {
+  margin: 5px;
+  padding: 8px 18px;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 1.25;
+  border-radius: 2px;
+  background-color: #EFBB20;
+  text-shadow: 0 0 4px #bf9004;
+  box-shadow: -3px -3px 5px $medium-gray;
+}
+/*showcase*/
+#showcase {
+  width: 100%;
+}
+/* who we are */
+#about {
+  padding: 60px 20px;
+}
+/* our services */
+#services {
+  padding: 60px 20px;
+}
+/* why us */
+.why-us {
+  background: $medium-light-gray;
+  padding: 60px 20px;
+}
+/* current projects */
+#current-p {
+  padding: 60px 20px;
+  background-color: $light-gray;
+}
+/* partners */
+/* meet our team */
+#team {
+  background: white;
+  padding: 60px 20px;
+}
+/* contact */
+#contact {
+  background: white;
+  padding: 60px 20px;
+  background-color: $light-gray;
+}
+
+input.button.small {
+  padding: 8px 18px;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 1.25;
+  border-radius: 2px;
+  background-color: #EFBB20;
+  text-shadow: 0 0 4px #bf9004;
+  box-shadow: -3px -3px 5px $medium-gray;
+}
+/* footer  */
+footer {
+  background: #2C353D;
+  color: white;
+  height: 200%;
+  padding: 45px 30px;
+}
+/* gutter */
+.gutter {
+  background-color: $black;
+  color: white;
+  margin-top: -1px;
+  height: 50px;
+
+  h5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 11px;
+    margin-left: 40px;
+    letter-spacing: 0.1px;
+  }
+
+  span {
+    color: $primary;
+  }
+}
+/*idea for mobile nav sticky*/
+.title-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding-top: -10px;
+}
