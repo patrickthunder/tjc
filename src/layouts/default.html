@@ -13,40 +13,40 @@
 <body>
 
 
-
   <!-- off canvas content menu -->
-  <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-toggle="offCanvas">
-
-    <!-- close button -->
-    <!-- <button class="close-button" aria-label="Close menu" type="button" data-close>
-      <span aria-hidden="true">&times;</span>
-    </button>
-  -->
-    <!-- off canvas menu -->
-    <!-- mobile nav bar -->
-    <ul class="menu vertical text-center">
-      <li><a href="index.html#home">Home</a></li>
-      <li><a href="index.html#about">About</a></li>
-      <li><a href="index.html#services">Services</a></li>
-      <li><a href="index.html#projects">Projects</a></li>
-      <li><a href="index.html#team">Team</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
-    </ul>
-  </div>
-
-  <div class="off-canvas-content" data-off-canvas-content>
-    <!-- main page content lives inside div -->
-    <div class="title-bar hide-for-medium">
-      <div class="title-bar-left">
-        <button class="menu-icon" type="button" data-open="offCanvas"></button>
-        <span class="title-bar-title"><span class="tblogo">Thunder-Jones</span> Contracting Group Inc</span>
-      </div>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-toggle="offCanvas">
+      <!-- off canvas menu -->
+      <!-- mobile nav bar -->
+      <br>
+      <h4 class="first">
+      Thunder-Jones
+    </h4>
+      <br>
+      <ul class="menu vertical text-center">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
     </div>
-    {{> navigation}} {{> body}} {{> footer}} {{> gutter}}
 
-    <script src="{{root}}assets/js/app.js"></script>
+    <div class="off-canvas-content" data-off-canvas-content>
+      <!-- main page content lives inside div -->
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button class="menu-icon" type="button" data-open="offCanvas"></button>
+          <span class="title-bar-title"><span class="tblogo">Thunder-Jones</span> Contracting Group Inc</span>
+        </div>
+      </div>
+      {{> navigation}} {{> body}} {{> footer}} {{> gutter}}
 
+      <script src="{{root}}assets/js/app.js"></script>
+    </div>
   </div>
+
 </body>
 
 </html>

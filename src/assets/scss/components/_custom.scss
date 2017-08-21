@@ -54,8 +54,27 @@ hr {
 }
 
 .tblogo {
-  color: $primary;
+  color: lighten( $primary, 30% );
 }
+
+/*off canvas list*/
+.off-canvas-wrapper {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+
+  a {
+    color: white;
+  }
+
+  h4 {
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: 450;
+    letter-spacing: 0.1px;
+    color: lighten( $primary, 30% );
+  }
+}
+
 /* home callout section and showcase*/
 .callout.large.primary {
   height: 450px;
