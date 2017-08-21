@@ -1,5 +1,4 @@
 {{!-- This is the base layout for your project, and will be used on every page. --}}
-
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -7,15 +6,47 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TJ-c</title>
+  <title>Thunder-Jones</title>
   <link rel="stylesheet" href="{{root}}assets/css/app.css">
 </head>
 
 <body>
 
-  {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}} {{> body}}
 
-  <script src="{{root}}assets/js/app.js"></script>
+
+  <!-- off canvas content menu -->
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-toggle="offCanvas">
+
+    <!-- close button -->
+    <!-- <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  -->
+    <!-- off canvas menu -->
+    <!-- mobile nav bar -->
+    <ul class="menu vertical text-center">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#team">Team</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- main page content lives inside div -->
+    <div class="title-bar hide-for-medium">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-open="offCanvas"></button>
+        <span class="title-bar-title"><span class="tblogo">Thunder-Jones</span> Contracting Group Inc</span>
+      </div>
+    </div>
+    {{> navigation}} {{> body}} {{> footer}} {{> gutter}}
+
+    <script src="{{root}}assets/js/app.js"></script>
+
+  </div>
 </body>
 
 </html>
