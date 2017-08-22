@@ -178,7 +178,7 @@ footer {
   }
 
   span {
-    color: $primary;
+    color: lighten( $primary, 30% );
   }
 }
 /*idea for mobile nav sticky*/
