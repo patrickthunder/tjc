@@ -50,18 +50,24 @@ hr {
 .title-bar-title {
   font-weight: 400;
   letter-spacing: 0.1px;
-  padding: 10px;
+  padding: 10px 2px;
   text-transform: uppercase;
+  text-align: justify;
 }
 
 .tblogo {
   color: lighten( $primary, 30% );
+
 }
 /* off canvas heading */
 #off-canvas-nav-heading {
   color: lighten( $primary, 30% );
   text-transform: uppercase;
-  font-size: 1.0rem;
+  font-size: 1.1rem;
+}
+#off-canvas-nav-subheading {
+  color: $white;
+  font-size: 0.8rem;
 }
 /* off canvas navigation */
 div.off-canvas-nav-list {
