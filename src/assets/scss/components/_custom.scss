@@ -175,9 +175,10 @@ footer {
   .indent{
     text-indent: 25px;
   }
-  i {
+  i.fa {
     color: lighten( $primary, 30% );
     padding-right: 5px;
+    font-size: 1.0em;
   }
   h5 {
     font-size: 1.0em;
