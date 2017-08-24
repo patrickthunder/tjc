@@ -138,11 +138,21 @@ a.button.small {
   background: white;
   padding: 60px 20px;
 }
+
 /* contact */
 #contact {
   background: white;
-  padding: 60px 20px;
+  padding: 60px 2px 2px 0px;
   background-color: $light-gray;
+}
+
+/* map
+#map-area {
+  background-color: blue;
+  }
+  */
+#contact-area {
+  padding: 0px 20px;
 }
 
 input.button.small {
@@ -155,6 +165,7 @@ input.button.small {
   text-shadow: 0 0 4px #bf9004;
   box-shadow: -3px -3px 5px $medium-gray;
 }
+
 /* footer  */
 footer {
   background: #2C353D;
