@@ -85,6 +85,15 @@ div.off-canvas-nav-list {
     color: lighten( $primary, 30% );
   }
 }
+
+/*mobile nav sticky*/
+.title-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding-top: -10px;
+}
+
 /* home callout section and showcase*/
 .callout.large.primary {
   height: 450px;
@@ -220,10 +229,19 @@ footer {
     color: lighten( $primary, 30% );
   }
 }
-/*idea for mobile nav sticky*/
-.title-bar {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  padding-top: -10px;
+
+
+/*Projects Pages*/
+/*Projects Hero Section*/
+.hero-section {
+  background: url('https://placehold.it/1130x400') 50% no-repeat;
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  padding: 20px;
+}
+
+section.project {
+  padding: 60px 20px;
+  background-color: $light-gray;
 }
