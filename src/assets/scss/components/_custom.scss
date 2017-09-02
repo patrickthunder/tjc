@@ -233,15 +233,45 @@ footer {
 
 /*Projects Pages*/
 /*Projects Hero Section*/
+section.project {
+  padding: 20px 20px;
+  background-color: $light-gray;
+
+  p {
+    font-size: 1.0rem;
+  }
+}
+
+section.project-name {
+  padding-top: 80px;
+}
+
 .hero-section {
   background: url('https://placehold.it/1130x400') 50% no-repeat;
   background-size: cover;
   height: 400px;
-  justify-content: center;
   padding: 20px;
 }
 
-section.project {
-  padding: 60px 20px;
-  background-color: $light-gray;
+/*project breadcrumbs*/
+.navbc {
+  padding-left: 20px;
+  .breadcrumbs {
+    color: $black;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+}
+/*project spec and overview*/
+.project-spec {
+  padding: 0px 10px;
+
+  .fa {
+    color: $primary;
+    padding-right: 5px;
+    font-size: 1.0em;
+  }
+}
+.project-overview {
+  padding: 0px 10px;
 }
